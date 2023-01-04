@@ -103,7 +103,6 @@ function addToCart(event){
         price: card.querySelector('.price__currency').innerText,
         counter: card.querySelector('[data-counter]').innerText
     };
-    console.log(productInfo.imgSrc)
 
     const itemInCart = cartWrapper.querySelector(`[data-id="${productInfo.id}"]`); 
 
